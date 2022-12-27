@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yufa's Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,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"
+                alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Subify <strong>Open-Source-Product</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Subscription Tracking System</p>
+        <img src="img/portfolio-09.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Money is a big motivator for most people, and everyone likes to save money. Nowadays, there are so many subscription
+        services out there for a plethora of goods and services that it can be hard to keep track of them all. As a result,
+        people can often forget to cancel subscriptions they no longer need and end up paying for them for months or even years
+        after they have stopped using them. Without closely monitoring your transactions, it can be easy to miss these charges
+        and consumers may feel as if their money is vanishing into a black hole.</p>
+        <img src="Assets/Subify.png"
+            alt="Subify Sign up page">
+            <p>Subify is a web application that allows users to keep track of their subscriptions and their monthly costs. This
+                allows users to have an overview of all their subscriptions and see how much they are spending on a monthly, as well as
+                yearly, basis. The goal is to help users save money by being better aware of what they are spending their money on so they
+                can make more informed decisions about their subscriptions.</p>
+            <p>Check out Github repo <a href="https://github.com/Subify/Subify">here</a>.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:yufa@hey.com" class="footer__link">yufa@hey.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/yufa-li/">
+                    <i class="fi fi-brands-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/yufa_li">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/01001101CK">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
